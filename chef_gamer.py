@@ -2,7 +2,7 @@ import streamlit as st
 from groq import Groq
 
 # 1. SETUP
-st.title("🍳 Chef & Gamer AI 🎮")
+st.title(" Chef & Gamer AI ")
 client = Groq(api_key=st.secrets["GROQ_API_KEY"])
 
 # Shortened the rules to one simple sentence
